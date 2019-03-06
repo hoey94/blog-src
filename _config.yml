@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yihao's Blog
+title: YIHAO'S BLOG
 subtitle:
 description:
 keywords:
@@ -79,5 +79,5 @@ theme: life
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Demo233/Demo233.github.io.git
+  repository: git@github.com:Demo233/Demo233.github.io.git
   branch: master
