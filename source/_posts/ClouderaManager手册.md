@@ -53,6 +53,8 @@ Cloudera Manager的核心是Cloudera Manager Server，简称CMS。CMS提供了�
 
 [Cloudera Manager官方下载](http://archive.cloudera.com/cm5)
 
+[Cloudera CDH 各个组件官方下载](http://archive.cloudera.com/cdh5/cdh/5/)
+
 [CDH Requirements for Cloudera Manager](https://www.cloudera.com/documentation/enterprise/release-notes/topics/rn_consolidated_pcm.html#cm_cdh_compatibility)
 
 ### 2.1 关于RAID 0的说明 ###
