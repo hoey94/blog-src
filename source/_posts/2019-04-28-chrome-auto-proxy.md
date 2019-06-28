@@ -10,6 +10,6 @@ categories: 软件
 [![1.png](https://i.loli.net/2019/04/28/5cc55a54b0cc0.png)](https://i.loli.net/2019/04/28/5cc55a54b0cc0.png)
 
 
-https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+[点我下载](https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt)
 
 [![2.png](https://i.loli.net/2019/04/28/5cc55a54cca52.png)](https://i.loli.net/2019/04/28/5cc55a54cca52.png)
