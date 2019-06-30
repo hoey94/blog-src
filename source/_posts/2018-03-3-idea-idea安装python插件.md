@@ -1,7 +1,6 @@
 ---
 layout: post
-title: IntelliJ IDEA安装python插件
-分享
+title: IntelliJ IDEA安装python插件分享
 date: 2018-03-03 00:00:00
 categories: 软件
 ---

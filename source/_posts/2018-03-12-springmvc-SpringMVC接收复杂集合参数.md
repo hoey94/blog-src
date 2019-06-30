@@ -1,10 +1,9 @@
 ---
 layout: post
 title: SpringMVC接收复杂集合参数
-tags: 问题总结
 date: 2018-03-12 00:00:00
 categories: 后端
-tags: spring
+tags: 问题总结
 ---
 
 记两个方式
