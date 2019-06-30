@@ -13,17 +13,17 @@ ActiveMQ 是一个apache提供的一个消息队列服务,为我们在生产中�
 
 我们需要到apache官网上下载ActiveMQ,官网地址http://activemq.apache.org/activemq-5145-release.html,我这边是ubuntu操作系统,下载尾缀是tar.gz,如果是windows下载zip
 
-![image](https://i.loli.net/2019/06/30/5d1847a2b633552704.jpg)
+![image](https://i.loli.net/2019/06/30/5d18573c6f73531010.jpg)
 
 ## 配置activemq.xml
 
 解压下好的软件
 
-![image](https://i.loli.net/2019/06/30/5d1847a4137f217086.jpg)
+![image](https://i.loli.net/2019/06/30/5d18573d5b33810262.jpg)
 
 进入**apache-activemq-5.14.5/conf**找到activemq.xml,将其中的0.0.0.0修改成127.0.0.1
 
-![image](https://i.loli.net/2019/06/30/5d1847a56015156238.jpg)
+![image](https://i.loli.net/2019/06/30/5d18573f8697036062.jpg)
 ```xml
 
     <transportConnectors>
@@ -44,11 +44,11 @@ ActiveMQ 是一个apache提供的一个消息队列服务,为我们在生产中�
 
 打印下列语句就是开启成功了
 
-![image](https://i.loli.net/2019/06/30/5d1847a7958ad94995.jpg)
+![image](https://i.loli.net/2019/06/30/5d1857421c3e810459.jpg)
 
 访问`localhost:8161/admin`。
 
-![image](https://i.loli.net/2019/06/30/5d1847afc247549449.jpg)
+![image](https://i.loli.net/2019/06/30/5d18574c306a861239.jpg)
 
 # 简单的Demo
 
@@ -101,15 +101,15 @@ public class Sender {
 
 这个是生产者,往队列中存值,这边我们为队列里面存放了5条消息,分别存于foo节点下.,我们在运行它之前先查看一下队列的样子。
 
-![image](https://i.loli.net/2019/06/30/5d1847b1efbcf17599.jpg)
+![image](https://i.loli.net/2019/06/30/5d18574e01f1742873.jpg)
 
 Queues中是空的什么都没有,我们运行代码,往队列中存入值
 
-![image](https://i.loli.net/2019/06/30/5d1847b3a1eeb21561.jpg)
+![image](https://i.loli.net/2019/06/30/5d18574fb76e694502.jpg)
 
 我们可以点进去查看详情
 
-![image](https://i.loli.net/2019/06/30/5d1847b5d9ff055331.jpg)
+![image](https://i.loli.net/2019/06/30/5d185756861cb94470.jpg)
 
 2. Consumer.java
 ```java
@@ -151,4 +151,4 @@ public class Consumer {
 
 这个是消费程序,每当队列里面存放一条消息后,该程序就会去队列中取数据了!!!
 
-![image](https://i.loli.net/2019/06/30/5d1847b9a06ae77383.jpg)
+![image](https://i.loli.net/2019/06/30/5d18575b6408923970.jpg)

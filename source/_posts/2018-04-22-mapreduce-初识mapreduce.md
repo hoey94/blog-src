@@ -41,4 +41,4 @@ nodemanager发现队列中的task，为reducetask分配cpu以及内存，运行r
 
 reducetask对maptask生成的数据进行汇总处理，并将结果上传到hdfs目录中。`要注意的是生成maptask、resourcetask的资源分配这个过程需要resourcemanager统一管理`.
 
-![image](https://i.loli.net/2019/06/30/5d18472004c9546167.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856632b1ea90560.jpg)

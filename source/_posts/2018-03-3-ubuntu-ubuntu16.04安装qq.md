@@ -7,7 +7,7 @@ categories: ubuntu
 
 经过不断折腾,终于找到了一个可安装的QQ,下面的方法不出意外应该是适用与所有的ubuntu16版本,本人已经使用这个方法正常安装了QQ2012国际版,如图:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozs6ft0q2j30ue0k7wh5.jpg)
 
 QQ2012国际版:
 
@@ -44,7 +44,7 @@ QQ2012国际版:
 
 下载链接[`https://pan.baidu.com/s/1bpF3p7L`](https://pan.baidu.com/s/1bpF3p7L),我们只需要下载`wine-qqintl-www.linuxidc.com.tar.xz`到本地,随后我们解压出里面的三个deb文件:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1foztpxcpjej30kw0armzb.jpg)
 
 我们使用dpkg分别安装三个deb文件
 
@@ -65,11 +65,11 @@ QQ2012国际版:
 
 在开始菜单中我们可以找到QQ2012国际版
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozty0w145j30x20n1dpc.jpg)
 
 我们可以在终端使用命令`sudo dpkg -l|grep qq` 和 `sudo find / -name qq*` 查看QQ的安装情况
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozu2b7ed6j30ku065t9p.jpg)
 
 如果在登录时提示版本过低,我们只需要将 手机QQ-->设置-->帐号、设备安全-->设备锁 设置为`未启用`状态即可
 
@@ -81,7 +81,7 @@ QQ2012国际版:
 
 我们可以发现存在两个package,使用`dpkg -P`命令分别卸载两个package
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpbgro2a88j30jj0argns.jpg)
 
 ### 2.卸载 wine-qqintl:i386
 
@@ -93,7 +93,7 @@ QQ2012国际版:
 
 在卸载的时候提示存在依赖,所以卸载失败了,我们使用`-l`查看gnome-sudoku详情,并将其卸载后一切就正常了
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpbguk17nuj30ji0aq0v1.jpg)
 
 > $ sudo dpkg -l | grep gnome-sudoku  
 > $ sudo dpkg -P gnome-sudoku

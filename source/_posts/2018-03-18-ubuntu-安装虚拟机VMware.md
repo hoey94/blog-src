@@ -10,13 +10,13 @@ categories: ubuntu
 
 效果图:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgu6bbqa4j30xc0mbgrs.jpg)
 
 ## 本机环境
 
 本机使用的是ubuntu16.04 TLS 64版,在本机上安装过程无任何问题(仅限本机)
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgvn41tp7j30q30tq4qp.jpg)
 
 ### 1.下载
 
@@ -36,7 +36,7 @@ categories: ubuntu
 
 1.在 *.bundle 文件上右击鼠标，选择最后一项“属性” 选项，在弹出的“属性”窗口中选择“权限”选项卡，在该选项卡中，可以看到有“允许以程序执行文件”的选项，把它选上，如图：
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgubt3m2oj30ps0q376x.jpg)
 
 2.另一种方法就是在终端用命令给 bundle 文件添加执行权限。打开终端(快捷键为 Ctrl+Alt+T )，打开终端后，进入 bundle 文件所在目录(便于操作)，然后用以下命令给 bundle 文件添加执行权限：
 
@@ -60,23 +60,23 @@ categories: ubuntu
 
 > $ ifconfig
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgus2pw0cj30ia0nnk33.jpg)
 
 1.vmnet0使用桥接链接方式,基本上不用动,下图是我本机的配置:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgunedheoj30tq0kl0vb.jpg)
 
 2.vmnet1使用宿主链接方式,需要修改的是**子网**和**子网掩码**，并使用DHCP分配模式,下图是我本机的配置:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgupqev7aj30h80go0u3.jpg)
 
 3.vmnet8使用NAT链接方式,需要修改的是**子网**和**子网掩码**,并使用DHCP分配模式，下图是我本机的配置:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgutoyr3uj30h70goabe.jpg)
 
 打开网络设置.可以查看里面的网关
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpguub5921j30h70hswg2.jpg)
 
 参考blog:http://blog.csdn.net/w20228396/article/details/77507908和http://blog.csdn.net/didi8206050/article/details/51872682
 
@@ -84,7 +84,7 @@ categories: ubuntu
 
 镜像自己去网上下载好了
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgugjttt8j30pu0he0uf.jpg)
 
 安装过程除了在**选择网络**那里选择**桥接类型**以外其他全部可以默认。
 
@@ -96,17 +96,17 @@ categories: ubuntu
 
 补充：如果你发现你连的ifconfig都不能用,可以使用**ip addr**查看相应信息:
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgv8b9tbuj30py0e4wfp.jpg)
 
 打开/etc/systemconfig/network-scripts/ifcfg-eth0，然后在里面加上如下的内容：
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgv9zyjn4j30q10gxwfv.jpg)
 
 注意打开的是ifcfg-eth0 你打开什么要根据你自己的网卡名称
 
 > /$ /etc/systemconfig/network-scripts/ifcfg-eth0
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgvbrh01mj30px0e03zh.jpg)
 
 DEVICE=ens33#设备名称，可根据ifcofnig命令查看到。
 
@@ -129,11 +129,11 @@ ONBOOT=yes  #yes表示启动就执行该配置，需要改为yes 我本地开始
 
 右键已安装的centos 管理->克隆，一路下一步,由于磁盘空间比较充足所以直接选择全克隆
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fph4om2cbaj30qr0lc78x.jpg)
 
 mini3是我刚从mini1克隆的一个新版本,启动以后发现无法正常分配ip
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fph4rnjex9j30q50kkdhd.jpg)
 
 因为mini1的网卡名称叫eth0,而克隆的叫eth1
 
@@ -149,7 +149,7 @@ mini3是我刚从mini1克隆的一个新版本,启动以后发现无法正常分
 
 重新查看一下
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fph4yry5ztj30q30kk405.jpg)
 
 ### 8.ping主机名访问
 
@@ -157,6 +157,6 @@ mini3是我刚从mini1克隆的一个新版本,启动以后发现无法正常分
 
 > $ vim /etc/hosts
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fph540ybxbj30qo0fv78k.jpg)
 
 像上图一样设置就可以了

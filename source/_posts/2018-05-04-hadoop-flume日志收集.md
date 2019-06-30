@@ -7,7 +7,7 @@ categories: 大数据
 tags: Flume
 ---
 
-![image](https://i.loli.net/2019/06/30/5d18454f5db5e60715.jpg)
+![image](https://i.loli.net/2019/06/30/5d185621173a293040.jpg)
 
 flume 是cloudera提供的一个高可靠、高可用、分布式的日志采集、聚合和传输的工具，flume最大的特点就是可以方便的定义各种sources(从哪收)和sinks(放在哪)，来适应我们不同的业务场景。
 

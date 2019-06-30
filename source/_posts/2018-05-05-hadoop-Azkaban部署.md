@@ -580,7 +580,7 @@ zip -r command.zip command.job
 
 上传zip包
 
-![image](https://i.loli.net/2019/06/30/5d1847cc5dcdc60330.jpg)
+![image](https://i.loli.net/2019/06/30/5d18576f0293651460.jpg)
 
 4、启动执行该job
 

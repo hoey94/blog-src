@@ -13,16 +13,16 @@ zookeeper是一个分布式协调服务框架，本次手写RPC框架需要使�
 
 我们需要到apache官网上下载Zookeeper,官网地址https://archive.apache.org/dist/zookeeper/,我这边是ubuntu操作系统,下载尾缀是tar.gz,如果是windows下载zip，我下载的是3.4.10版本
 
-![image](https://i.loli.net/2019/06/30/5d1845594bc8536060.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856270d97217892.jpg)
 
 ## 2.启动虚拟机集群
 我在虚拟机中安装了cor1、cor2、cor3、cor4四台机器，用的是centOS操作系统。 关于数量配置的是偶数台集群，其实不太好，最好集群数量是基数，这是因为zookeeper的运行机制，只要有半数的集群数存活的话，zookeeper就能正常工作，我们分别启动每台机器。
 
-![image](https://i.loli.net/2019/06/30/5d18455ac638e26664.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856289e2b063842.jpg)
 
 小技巧：SecureCRT链接集群使用`Send commands to all sessions`可以一次性控制多台机器,我们只需要打一条命令就可以了，这个很重要，假如集群数太多上千台，我们不可能一台一台去陪，这个时候使用这个功能就可以同时操作了。
 
-![image](https://i.loli.net/2019/06/30/5d18455cd10c350085.jpg)
+![image](https://i.loli.net/2019/06/30/5d18562a6620247005.jpg)
 
 ## 3.zookeeper配置
 
@@ -79,7 +79,7 @@ server.4=cor4:2888:3888
 后续我们需要在zookeeper/data/目录下创建每台zookeeper的id
 创建`myid`文件 在里面写上每台机器对应的编号,如果是`cor1` 就在`myid`文件中写上**1**,`cor2`就写**2**
 
-![image](https://i.loli.net/2019/06/30/5d18455dc1bc758471.jpg)
+![image](https://i.loli.net/2019/06/30/5d18562b8b94385411.jpg)
 
 ## 4.配置集群服务器
 

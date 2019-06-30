@@ -28,6 +28,6 @@ Caused by: java.lang.ClassNotFoundException: scala.Product$class
 
 Spark和Scala的版本是有对应关系的，下面有个查看关系的小技巧，去[https://mvnrepository.com/](https://mvnrepository.com/)中搜索**spark**，进入**Spark Project Core**查看即可
 
-![](zyhuploaderror123)
+![](http://ww1.sinaimg.cn/large/0066vfZIgy1g24entpf59j309m04z3yc.jpg)
 
 下面分别引入**spark-core**和**spark-sql**（不需要的话可以不引）运行即可。

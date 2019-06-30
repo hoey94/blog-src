@@ -12,7 +12,7 @@ categories: ubuntu
 
 本机使用的是ubuntu16.04 TLS 64版,在本机上安装过程无任何问题(仅限本机)
 
-![image](https://i.loli.net/2019/06/30/5d1845600f9e589069.jpg)
+![image](https://i.loli.net/2019/06/30/5d18562f663f412661.jpg)
 
 ### 1.下载
 
@@ -36,7 +36,7 @@ categories: ubuntu
 
 认证信息:
 
-![image](https://i.loli.net/2019/06/30/5d18456b682fd40221.jpg)
+![image](https://i.loli.net/2019/06/30/5d185630b0ea859495.jpg)
 
 到dash中搜索securecrt启动,securecrt会提示你产品没有license，需要购买不然只能使用30天,
 我们输入上图中的认证信息就可以完成注册。

@@ -12,7 +12,7 @@ Scala的作者[Martin Odersky](https://baike.baidu.com/item/Martin%20Odersky/889
 
 正如你所看到的 Scala底层也是跑在JVM上的，所以它与Java集成度非常高，我们可以直接拿Scala调用已经写好的Java接口实现无缝对接。目前已经有很多公司和个人采用Scala来构建他们的平台和应用，作为JVM上第一个获得广泛成功的非Java语言，Scala正以它独特的魅力吸引着越来越多人的热情投入。
 
-![image](zyhuploaderror123)
+![image](http://ww1.sinaimg.cn/large/006qboNIgy1frjeo39r5nj30go0go0wl.jpg)
 
 Scala语言表达能力十分强，一行代码抵得上Java多行，开发速度快；Scala是静态编译的，所以和JRuby,Groovy比起来速度会快很多。可以看到上图中Sacala程序员工作状态略显轻松。
 

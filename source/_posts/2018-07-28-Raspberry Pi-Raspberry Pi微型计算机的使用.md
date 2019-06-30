@@ -55,13 +55,13 @@ SD卡我这边是单独购买的，买的是闪迪32G的，听朋友说8G就已�
 
 用这个更是化SD卡
 
-![image](https://i.loli.net/2019/06/30/5d184572bd76e91093.jpg)
+![image](https://i.loli.net/2019/06/30/5d185636dcbfd40206.jpg)
 
 2.Win32DiskImager
 
 这个是往SD卡中写操作系统用的
 
-![image](https://i.loli.net/2019/06/30/5d1845746a6e836908.jpg)
+![image](https://i.loli.net/2019/06/30/5d18563769bbb66159.jpg)
 
 3.RASPBIAN OS
 
@@ -73,7 +73,7 @@ RASPBIAN STRETCH LITE ： 只安装命令行，不安装桌面
 
 关于选择哪个，全在个人，想要桌面就安第一个。我使用的第第二个不带桌面的。
 
-![image](https://i.loli.net/2019/06/30/5d18457706c3416319.jpg)
+![image](https://i.loli.net/2019/06/30/5d18563b14deb17086.jpg)
 
 ## 制作SD卡
 
@@ -89,7 +89,7 @@ RASPBIAN STRETCH LITE ： 只安装命令行，不安装桌面
 
 插上SD卡，如果你是linux操作系统，除了第一个boot盘符意外，你就能看到第二个盘符，叫"rootfs"
 
-![image](https://i.loli.net/2019/06/30/5d184577f317299450.jpg)
+![image](https://i.loli.net/2019/06/30/5d18563bc629778245.jpg)
 
 > $ sudo vim rootfs/etc/wap_supplicant/wpa_supplicant.conf
 
@@ -112,7 +112,7 @@ psk="your wifi password"
 
 > $ ssh pi@192.168.100.109
 
-![image](https://i.loli.net/2019/06/30/5d18457a2378755301.jpg)
+![image](https://i.loli.net/2019/06/30/5d18563d4576590392.jpg)
 
 假如没有linux操作系统，我们就不能修改/etc/wpa_supplicant 目录下的 wpa_supplicant.conf文件，那么你可以尝试方案二
 

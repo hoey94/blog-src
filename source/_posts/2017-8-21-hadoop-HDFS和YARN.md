@@ -20,9 +20,9 @@ categories: 大数据
 
 > ehco $JAVA_HOME
 
-![java](https://i.loli.net/2019/06/30/5d18472ae864792582.jpg)
+![java](https://i.loli.net/2019/06/30/5d18567363a5f26626.jpg)
 
-![](https://i.loli.net/2019/06/30/5d18472c247bc51179.jpg)
+![](https://i.loli.net/2019/06/30/5d185674e1eac90408.jpg)
 
 ### 配置 core-site.xml
 
@@ -45,7 +45,7 @@ categories: 大数据
 
 这里hdfs://zyh:9000/中的zyh相当于localhost,因为我在/etc/hosts文件中修改了
 
-![](https://i.loli.net/2019/06/30/5d18472d590c566333.jpg)
+![](https://i.loli.net/2019/06/30/5d1856759d07a87559.jpg)
 
 ### 配置 hdfs-site.xml
 
@@ -102,13 +102,13 @@ categories: 大数据
 ```
 这个是我本地的profile作参考
 
-![hadoop添加到环境变量](https://i.loli.net/2019/06/30/5d18472e4b2fc90927.jpg)
+![hadoop添加到环境变量](https://i.loli.net/2019/06/30/5d18567686ce084291.jpg)
 
 ### 初始化namenode（又叫格式化namenode）
 
 > $ hdfs namenode -format (hadoop namenode -format)
 
-![初始化namenode](https://i.loli.net/2019/06/30/5d18473205e8071080.jpg)
+![初始化namenode](https://i.loli.net/2019/06/30/5d18567a2fe3a45964.jpg)
 
 弹出一大片log,英语很nice可以稍微看看,不好的可以键入命令``echo $?``来校验上一个操作是否正确,如果是0就是正确的
 
@@ -120,7 +120,7 @@ categories: 大数据
 2. start-dfs.sh : 启动dfs
 3. start-yarn.sh : 启动yarn
 
-![](https://i.loli.net/2019/06/30/5d18473420e7b37135.jpg)
+![](https://i.loli.net/2019/06/30/5d18567b17a6e33029.jpg)
 
 作为入门的新手,我们当然是一步一步启动,先启动HDFS,再启动YARN.并观察启动后的运行状态
 
@@ -130,7 +130,7 @@ categories: 大数据
 
 启动报错,如果说本地ssh拒绝访问,那么我们需要安装openssh-server,如果没有报错请无视！
 
-![报错](https://i.loli.net/2019/06/30/5d1847368a4cf16306.jpg)
+![报错](https://i.loli.net/2019/06/30/5d18567e4b37e92668.jpg)
 
 安装后再次键入命令.HDFS会提示会让我们输入很多次密码并确认,因为部署的是分布式系统,尽管我们只使用了一台电脑,但是HDSF不知道,他会使用SSH去访问我们远程的服务器(本例中远程服务器就是本机啦！)之后它会启动一系列进程,这些进程分别是:
 
@@ -138,7 +138,7 @@ categories: 大数据
 2. DataNode
 3. SecondaryNameNode
 
-![启动HDFS](https://i.loli.net/2019/06/30/5d18474de96e052771.jpg)
+![启动HDFS](https://i.loli.net/2019/06/30/5d18567fd7f1683994.jpg)
 
 
 ### 启动YARN
@@ -150,7 +150,7 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 1. ResourceManager
 2. NodeManager
 
-![启动YARN](https://i.loli.net/2019/06/30/5d1847501068774383.jpg)
+![启动YARN](https://i.loli.net/2019/06/30/5d185682ac28195281.jpg)
 
 ### 查看启动进程的状态
 
@@ -176,17 +176,17 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop fs -put test.txt hdfs://zyh:9000/
 
-![put](https://i.loli.net/2019/06/30/5d184756b835045949.jpg)
+![put](https://i.loli.net/2019/06/30/5d1856883ee1b39713.jpg)
 
 再次打开http://zyh:50070,查看HDFS就会发现多出了一个test.txt文件
 
-![查看结果](https://i.loli.net/2019/06/30/5d1847583738c62175.jpg)
+![查看结果](https://i.loli.net/2019/06/30/5d1856891db3037047.jpg)
 
 ## 使用MR
 
 到**hadoop-2.4.1/share/hadoop/mapreduce**目录下可以找到**hadoop-mapreduce-examples-2.4.1.jar**,这个jar是Hadoop为我们编写的mapreduce小例子,我们可以使用它来做一些测试
 
-![examples](https://i.loli.net/2019/06/30/5d18475977cdb77340.jpg)
+![examples](https://i.loli.net/2019/06/30/5d18568a5a14a37356.jpg)
 
 我们使用MR做一些小测试！
 
@@ -200,13 +200,13 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop jar hadoop-mapreduce-examples-2.4.1.jar pi 5 100
 
-![pi](https://i.loli.net/2019/06/30/5d18475bca0a682016.jpg)
+![pi](https://i.loli.net/2019/06/30/5d18568c4251f40910.jpg)
 
 * 统计我们之前test.txt中字符串出现的次数
 
 > $ cat test.txt
 
-![test file](zyhuploaderror123)
+![test file](https://i.loli.net/2019/06/30/5d18568e7a5b870045.jpg)
 
 这一次我们在HDFS文件系统中创建一些目录,将test.txt上传到指定目录中去
 
@@ -216,9 +216,9 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop fs -mkdir /wordcount/input
 
-![](zyhuploaderror123)
+![](https://i.loli.net/2019/06/30/5d18568fba13758809.jpg)
 
-![](zyhuploaderror123)
+![](https://i.loli.net/2019/06/30/5d1856912037076903.jpg)
 
 同理创建创建/**wordcount**/**output**用来放被统计后的输出文件
 
@@ -238,18 +238,18 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop jar hadoop-mapreduce-examples-2.4.1.jar wordcount /wordcount/input /wordcount/out 
 
-![](zyhuploaderror123)
+![](https://i.loli.net/2019/06/30/5d185692e5a9d43661.jpg)
 
 到/**wordcount**/**out**查看MR分析结果,并使用命令下载文件
 
 > $ hadoop fs -ls /wordcount/out/
 
-![](https://i.loli.net/2019/06/30/5d1847620feb287626.jpg)
+![](https://i.loli.net/2019/06/30/5d185699bc9f428703.jpg)
 
 > $ hadoop fs -get /wordcount/out part-r-00000
 
-![](https://i.loli.net/2019/06/30/5d1847633019612621.jpg)
+![](https://i.loli.net/2019/06/30/5d18569c354df29231.jpg)
 
 查看MR分析结果
 
-![](https://i.loli.net/2019/06/30/5d1847644df5419635.jpg)
+![](https://i.loli.net/2019/06/30/5d18569d7134b87906.jpg)
