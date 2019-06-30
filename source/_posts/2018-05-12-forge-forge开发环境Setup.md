@@ -93,4 +93,3 @@ Callback URL设为 http://localhost:3000/api/forge/callback/oauth 。
 若上一步中将Client Id以及Secret写入到配置文件，运行如下命令启动项目
 
 > cross-env NODE_ENV=development HOT_RELOADING=true npm start
-

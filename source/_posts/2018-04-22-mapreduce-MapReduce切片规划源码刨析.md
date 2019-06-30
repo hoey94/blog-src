@@ -12,7 +12,7 @@ tags: MapReduce
 
 
 切片规划最终会形成一个文件job.split。里面存放这切片信息，首先要明确一点是maptask的数量于切片的数量有直接对应关系。mrappmaster在启动maptask时，会去job.split文件中找切片信息，有几个切片就启动几个maptask，每个切片分配一个maptask并行实例。我们通过追源码，找到了这个文件。
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlmz44307j30pj0p57cq.jpg)
+![image](zyhuploaderror123)
 
 MapReduce框架会把它存在我们本机的某个路径。它是MapReduce对于待处理数据的一个描述信息文件。
 
@@ -43,23 +43,23 @@ MapReduce框架会把它存在我们本机的某个路径。它是MapReduce对�
 
 一步一步断点调试,通过本地运行MapReduce程序,进入debug。先在`job.waitForCompletion(true);`打断点。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqln65zbisj31fq0hwdii.jpg)
+![image](zyhuploaderror123)
 
 发现会进入`submitter.submitJobInternal()`,跳进去
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqln8xtt4oj315z0gy0ud.jpg)
+![image](zyhuploaderror123)
 
 可以看到拿到了`jobStagingArea`,后续拿到了`jobId`,最后拼成了`submitJobDir`。这个目录就是上面提到的job.split存放的目录。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlnbpqlsbj312t0fiabp.jpg)
+![image](zyhuploaderror123)
 
 拿到submitJobDir以后，MapReduce开始调用`this.writeSplits(job, submitJobDir)`对文件进行逻辑切分，形成job.split文件(后续详细解析里面的内部详情)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlnc2wu40j31ed0j30vw.jpg)
+![image](zyhuploaderror123)
 
 后续获取配置信息。形成job.xml文件，这个文件里面定义了hadoop中各种各样的配置信息
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlngk2q89j31fl0imtba.jpg)
+![image](zyhuploaderror123)
 
 最后将job.split,job.xml,写到对应的submitJobDir目录下。
 
@@ -77,7 +77,7 @@ MapReduce框架会把它存在我们本机的某个路径。它是MapReduce对�
 
 InputFormat的类结构图
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlny78sfdj30qx0gwtao.jpg)
+![image](zyhuploaderror123)
 
 来看看getSplits方法的具体逻辑，我直接把源码粘过来了,我在关键的地方加了注释
 
@@ -209,13 +209,3 @@ public static long getMaxSplitSize(JobContext context) {
 了解了切片后，我们到底切多大？是比HDFS block大好还是比他小好？为什么要对文件进行切分？要明白切片规划的其中一个重要的原因就是mapreduce期望，在运行每个maptask时，任务所需要的输入数据恰好能在本地，这样就能保证每次maptask于hdfs的数据交互时，直接可以从本地拿到数据。理想状态（切片的大小=blocksize,减少maptask于hdfs的跨网络数据传输）。
 
 本人水平有限，不当之处希望各位高手指正。邮箱cnnqjban521@gmail.com。
-
-
-
-
-
-
-
-
-
-

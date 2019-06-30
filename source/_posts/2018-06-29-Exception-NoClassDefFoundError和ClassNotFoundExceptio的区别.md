@@ -62,4 +62,3 @@ static{
 ```
 
 到数据库查了一下license表,发现cversion 字段的值为null
-

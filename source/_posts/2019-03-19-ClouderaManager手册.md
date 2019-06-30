@@ -3,7 +3,7 @@ title: ClouderaManager操作指南
 date: 2019-03-19 13:58:42
 author: 张帅
 categories: 大数据
-photos: http://ww1.sinaimg.cn/large/0066vfZIgy1g182hg7z60j30cv068gln.jpg
+photos: zyhuploaderror123
 ---
 
 作者 ： 张帅
@@ -37,7 +37,7 @@ CDH的公司Cloudera推出了Cloudera Manager用于CDH版本集群的管理。Cl
 
 Cloudera Manager的核心是Cloudera Manager Server，简称CMS。CMS提供了管理端Web界面，统一针对其他节点进行控制，如图所示
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182jpew5tj30jc0fuq3r.jpg)
+![](zyhuploaderror123)
 
 **组件介绍**
 
@@ -284,7 +284,7 @@ Agent的日志文件位于：
 
 当Server与Agent全部启动完成后，可以访问CMS的WEB管理页面[example link](http://localhost:7180 "例子")，如图所示。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pm79yij30lz08k0su.jpg)
+![](zyhuploaderror123)
 
 *账户密码均为admin*
 
@@ -296,19 +296,19 @@ Agent的日志文件位于：
 
 首次登陆时，会自动弹出“接受协议”页面，接受即可。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmcti9j30m00b2wh3.jpg)
+![](zyhuploaderror123)
 
 ### 4.2 选择版本 ###
 
 选择版本时，选择免费版本即可。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmgi4bj30m409n401.jpg)
+![](zyhuploaderror123)
 
 ### 4.3 查看当前已管理主机 ###
 
 如果Agent正产启动，在“当前管理的主机”页面会显示所有管理主机，否则请检查Agent是否正常启动。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmkbq7j30m30awta9.jpg)
+![](zyhuploaderror123)
 
 选择所有主机，点击“继续”按钮。
 
@@ -316,7 +316,7 @@ Agent的日志文件位于：
 
 Cloudera Manager会将Parcel包分发至各个节点，等待几分钟即可。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pm7kulj30m108ojro.jpg)
+![](zyhuploaderror123)
 
 **注意，在分发Parcel包的过程中，可以会出现分发失败的问题，查看相应的Agent日志，定位错误，进行修复。**
 
@@ -327,23 +327,23 @@ Cloudera Manager会将Parcel包分发至各个节点，等待几分钟即可。
 
 Parcel包分发完成后，Cloudera Manager会检查主机的的正确性，包括一些优化的配置、要关闭的属性等，该步骤非常重要，一定要根据检查结果对主机进行配置修复，否则在以后的过程中会出现各种不可预料问题。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pm7fgtj30m00aqaab.jpg)
+![](zyhuploaderror123)
 
 ### 4.6 选择要安装的组件 ###
 
 主机正确性检查完成后，就可以进入安装环节了，Cloudera Manager会要求你选择要安装的组件。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmiziwj30m30auwgm.jpg)
+![](zyhuploaderror123)
 
 **选择“自定义服务”，选择集群中要安装的组件。**
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmmg99j30m20bhdjk.jpg)
+![](zyhuploaderror123)
 
 ### 4.7 设置数据库 ###
 
 选择完成要安装的组件后，需要为Cloudera Manager配置运行时数据库环境，如图所示。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmbbqkj30m60bn75o.jpg)
+![](zyhuploaderror123)
 
 配置的数据库在前面的步骤中已经提前创建完成。
 
@@ -355,13 +355,13 @@ Parcel包分发完成后，Cloudera Manager会检查主机的的正确性，包�
 
 在集群的启动过程中，可能会因为权限或其他问题导致某些服务启动失败，只需要根据错误信息进行修复，即可启动完成。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pma4kyj30ly0b2dgq.jpg)
+![](zyhuploaderror123)
 
 ### 4.10 启动成功 ###
 
 集群启动成功后，可在首页查看集群的总览。
 
-![](http://ww1.sinaimg.cn/large/0066vfZIgy1g182pmklf3j30m00a70ut.jpg)
+![](zyhuploaderror123)
 
 ### 4.11 其他 ###
 

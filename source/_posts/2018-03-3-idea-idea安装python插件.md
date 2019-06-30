@@ -12,7 +12,7 @@ categories: 软件
 
 本机是在ubuntu16上使用的是2016.3.7版本的IntelliJ IDEA
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozyd9d7byj30oe0gpwjz.jpg)
+![image](zyhuploaderror123)
 
 ## 开始安装
 
@@ -20,11 +20,8 @@ categories: 软件
 
 我下载的是`163.12024—163.*`
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozyi27jh1j30v9025mx2.jpg)
+![image](zyhuploaderror123)
 
 下载好以后在Intellij IDEA File——>Settings——>IDE setttings——>Plugins——>Install plugin from disk…——>选择插件所在路径即可。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozylusbqcj31h80tpaer.jpg)
-
-
-
+![image](zyhuploaderror123)

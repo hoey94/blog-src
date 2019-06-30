@@ -935,5 +935,3 @@ paste.js 开源项目
 }).call(this);
 
 ```
-
-

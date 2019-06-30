@@ -28,7 +28,7 @@ DefaultAlipayClient 是阿里提供给我们的接口
 
 #### 购买界面入口
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftky81canfj30ko0ijgoy.jpg)
+![image](zyhuploaderror123)
 
 ```java
 // 购买兑换码

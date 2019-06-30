@@ -27,7 +27,7 @@ Raspberry Pi是一款基于ARM的微型电脑主板，以SD/MicroSD卡为内存�
 
 1.Raspberry Pi主板 (238 RMB)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpula4go9j31hc141ajb.jpg)
+![image](https://i.loli.net/2019/06/30/5d18456dc0bca94072.jpg)
 
 在买主板的时候，店家往往会给你推荐很多配件，比如电源、SD卡、散热片、外壳等等，不买也不影响正常使用，我购买的时候什么配件都没要，只要了一个主板
 
@@ -39,13 +39,13 @@ Raspberry Pi是一款基于ARM的微型电脑主板，以SD/MicroSD卡为内存�
 
 SD卡我这边是单独购买的，买的是闪迪32G的，听朋友说8G就已经够用了，如果你觉得太小可以买16G(40+ RMB)。32G 确实有点太大了。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpvvcew2nj30db09uad0.jpg)
+![image](https://i.loli.net/2019/06/30/5d18456f8f89b40840.jpg)
 
 3.读卡器(6 RMB)
 
 读卡器是在SD卡write OS时用的。我这边从便利店买了一个便宜货6块钱。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpuuz6zqcj31kw16ox2w.jpg)
+![image](https://i.loli.net/2019/06/30/5d18457213eb047942.jpg)
 
 #### 软件
 
@@ -55,13 +55,13 @@ SD卡我这边是单独购买的，买的是闪迪32G的，听朋友说8G就已�
 
 用这个更是化SD卡
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpuyqhns6j302z027743.jpg)
+![image](https://i.loli.net/2019/06/30/5d184572bd76e91093.jpg)
 
 2.Win32DiskImager
 
 这个是往SD卡中写操作系统用的
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpuzom9ljj303y030mx0.jpg)
+![image](https://i.loli.net/2019/06/30/5d1845746a6e836908.jpg)
 
 3.RASPBIAN OS
 
@@ -73,7 +73,7 @@ RASPBIAN STRETCH LITE ： 只安装命令行，不安装桌面
 
 关于选择哪个，全在个人，想要桌面就安第一个。我使用的第第二个不带桌面的。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpv1bb8e0j31hb0tz0zs.jpg)
+![image](https://i.loli.net/2019/06/30/5d18457706c3416319.jpg)
 
 ## 制作SD卡
 
@@ -89,7 +89,7 @@ RASPBIAN STRETCH LITE ： 只安装命令行，不安装桌面
 
 插上SD卡，如果你是linux操作系统，除了第一个boot盘符意外，你就能看到第二个盘符，叫"rootfs"
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpvels5v7j30dh02x0sm.jpg)
+![image](https://i.loli.net/2019/06/30/5d184577f317299450.jpg)
 
 > $ sudo vim rootfs/etc/wap_supplicant/wpa_supplicant.conf
 
@@ -112,7 +112,7 @@ psk="your wifi password"
 
 > $ ssh pi@192.168.100.109
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1ftpvtg4hz8j30i80cbjud.jpg)
+![image](https://i.loli.net/2019/06/30/5d18457a2378755301.jpg)
 
 假如没有linux操作系统，我们就不能修改/etc/wpa_supplicant 目录下的 wpa_supplicant.conf文件，那么你可以尝试方案二
 
@@ -143,7 +143,3 @@ psk="your wifi password"
 经过踩坑以后，这边对配置文件进行了调整最后才成功。
 
 就是把里面的第一行country=xx 删掉.猜测的原因是，因为xx填写的并不正确导致无法正常链接wifi。这边干脆就把它删掉，因为删掉就是默认的了，事实证明删掉它以后wifi就可以连了，猜测是正确的。
-
-
-
-

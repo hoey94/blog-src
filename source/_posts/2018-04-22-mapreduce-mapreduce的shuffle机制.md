@@ -9,7 +9,7 @@ tags: MapReduce
 
 在编写MapReduce，启动主程序以后，到底maptask和reducetask之间是怎么工作的？数据是如何进行排序的？
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumeqgv4ckj31kw0vpwia.jpg)
+![image](zyhuploaderror123)
 
 
 1.inputFormat:我们知道mapreduce主程序初始化job以后会对输入的数据进行切片规划，生成job.split文件，inputFormat会读取job.split文件，根据信息从DHFS中找到要读取的数据,调用recordReader将数据读成一行,传入mapper中,默认的使用的是TextInputFormat
