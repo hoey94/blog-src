@@ -22,7 +22,7 @@ tags: RPC
 
 预备知识梳理。采用Java语言编写，需要掌握线程、动态代理、反射、Netty、注解、Spring等知识。RPC远程过程调用，是一种常见的底层通信框架，有效的理解它对于后续学习其他开源框架有很大帮助。下面梳理设计思路与具体代码逻辑。见整体框架图：
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqgkibcspdj31460kcq42.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856abca77094129.jpg)
 
 `注:实线以上部分是用户需要完成的操作，一下部分则是需要封装后打包成jar包，供用户导入的框架内部核心代码。`
 

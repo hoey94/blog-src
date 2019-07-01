@@ -20,9 +20,9 @@ categories: 大数据
 
 > ehco $JAVA_HOME
 
-![java](https://ws1.sinaimg.cn/large/0066vfZIgy1firq7b88bcj30fy09gq35.jpg)
+![java](https://i.loli.net/2019/06/30/5d18567363a5f26626.jpg)
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu1ut5k33j30l00fyju1.jpg)
+![](https://i.loli.net/2019/06/30/5d185674e1eac90408.jpg)
 
 ### 配置 core-site.xml
 
@@ -45,7 +45,7 @@ categories: 大数据
 
 这里hdfs://zyh:9000/中的zyh相当于localhost,因为我在/etc/hosts文件中修改了
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu0yad5vwj30mk0iuaao.jpg)
+![](https://i.loli.net/2019/06/30/5d1856759d07a87559.jpg)
 
 ### 配置 hdfs-site.xml
 
@@ -102,13 +102,13 @@ categories: 大数据
 ```
 这个是我本地的profile作参考
 
-![hadoop添加到环境变量](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu0zz7xpsj30qn0l0tan.jpg)
+![hadoop添加到环境变量](https://i.loli.net/2019/06/30/5d18567686ce084291.jpg)
 
 ### 初始化namenode（又叫格式化namenode）
 
 > $ hdfs namenode -format (hadoop namenode -format)
 
-![初始化namenode](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzho1zwrj30t10l9kfp.jpg)
+![初始化namenode](https://i.loli.net/2019/06/30/5d18567a2fe3a45964.jpg)
 
 弹出一大片log,英语很nice可以稍微看看,不好的可以键入命令``echo $?``来校验上一个操作是否正确,如果是0就是正确的
 
@@ -120,7 +120,7 @@ categories: 大数据
 2. start-dfs.sh : 启动dfs
 3. start-yarn.sh : 启动yarn
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu16pr9qsj30fy0dfwfn.jpg)
+![](https://i.loli.net/2019/06/30/5d18567b17a6e33029.jpg)
 
 作为入门的新手,我们当然是一步一步启动,先启动HDFS,再启动YARN.并观察启动后的运行状态
 
@@ -130,7 +130,7 @@ categories: 大数据
 
 启动报错,如果说本地ssh拒绝访问,那么我们需要安装openssh-server,如果没有报错请无视！
 
-![报错](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzjx8f5nj30oz0lcwxe.jpg)
+![报错](https://i.loli.net/2019/06/30/5d18567e4b37e92668.jpg)
 
 安装后再次键入命令.HDFS会提示会让我们输入很多次密码并确认,因为部署的是分布式系统,尽管我们只使用了一台电脑,但是HDSF不知道,他会使用SSH去访问我们远程的服务器(本例中远程服务器就是本机啦！)之后它会启动一系列进程,这些进程分别是:
 
@@ -138,7 +138,7 @@ categories: 大数据
 2. DataNode
 3. SecondaryNameNode
 
-![启动HDFS](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzlip8qej30lx0br49z.jpg)
+![启动HDFS](https://i.loli.net/2019/06/30/5d18567fd7f1683994.jpg)
 
 
 ### 启动YARN
@@ -150,43 +150,43 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 1. ResourceManager
 2. NodeManager
 
-![启动YARN](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzn4ij1bj30kq0ezdj6.jpg)
+![启动YARN](https://i.loli.net/2019/06/30/5d185682ac28195281.jpg)
 
 ### 查看启动进程的状态
 
 > $ jps
 
-![查看启动状态](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzob8atsj30kq0ezdiv.jpg)
+![查看启动状态](https://i.loli.net/2019/06/30/5d184751aabf122988.jpg)
 
 ## 使用HDFS
 
 打开网址http://zyh:50070 （HDFS管理界面）,在该界面我们可以查看HDFS的运行状态信息,在Browse the file system一栏中可以查看HDFS目录结构
 
-![Browse the file system](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzqscc13j30qo0rkjul.jpg)
+![Browse the file system](https://i.loli.net/2019/06/30/5d1847531472850379.jpg)
 
 因为我们什么都没有做,所以在Browse Directory下面什么都没有,HDFS的目录结构和linux的目录结构差不多,都是以``/``为根目录.
 
-![什么都没有](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzrqj1qzj30qo0mhab2.jpg)
+![什么都没有](https://i.loli.net/2019/06/30/5d1847540b49622501.jpg)
 
 编写test.txt并上传到HDFS中(被上传的文件会被分为若干个切块，分别放于不同的datanode中)
 
-![test.txt](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzunhvzpj30kq0ezdg2.jpg)
+![test.txt](https://i.loli.net/2019/06/30/5d184755225a588947.jpg)
 
 键入命令,将test.txt上传到hdfs上
 
 > $ hadoop fs -put test.txt hdfs://zyh:9000/
 
-![put](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzwn3udhj30kq0ezn0o.jpg)
+![put](https://i.loli.net/2019/06/30/5d1856883ee1b39713.jpg)
 
 再次打开http://zyh:50070,查看HDFS就会发现多出了一个test.txt文件
 
-![查看结果](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzxbx8nhj30qp0mhq42.jpg)
+![查看结果](https://i.loli.net/2019/06/30/5d1856891db3037047.jpg)
 
 ## 使用MR
 
 到**hadoop-2.4.1/share/hadoop/mapreduce**目录下可以找到**hadoop-mapreduce-examples-2.4.1.jar**,这个jar是Hadoop为我们编写的mapreduce小例子,我们可以使用它来做一些测试
 
-![examples](https://ws1.sinaimg.cn/large/0066vfZIgy1fitzzfepkgj30qo0l4jsq.jpg)
+![examples](https://i.loli.net/2019/06/30/5d18568a5a14a37356.jpg)
 
 我们使用MR做一些小测试！
 
@@ -200,13 +200,13 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop jar hadoop-mapreduce-examples-2.4.1.jar pi 5 100
 
-![pi](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu03r8rdhj30qo0tfwk3.jpg)
+![pi](https://i.loli.net/2019/06/30/5d18568c4251f40910.jpg)
 
 * 统计我们之前test.txt中字符串出现的次数
 
 > $ cat test.txt
 
-![test file](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu051d46ej30fy0by0tp.jpg)
+![test file](https://i.loli.net/2019/06/30/5d18568e7a5b870045.jpg)
 
 这一次我们在HDFS文件系统中创建一些目录,将test.txt上传到指定目录中去
 
@@ -216,9 +216,9 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop fs -mkdir /wordcount/input
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu093cl4vj30fy0byjsr.jpg)
+![](https://i.loli.net/2019/06/30/5d18568fba13758809.jpg)
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu09brn1rj30qp0mhjsj.jpg)
+![](https://i.loli.net/2019/06/30/5d1856912037076903.jpg)
 
 同理创建创建/**wordcount**/**output**用来放被统计后的输出文件
 
@@ -238,19 +238,18 @@ yarn也是一样的一路yes并输入密码即可,yarn会先后开启两个进�
 
 > $ hadoop jar hadoop-mapreduce-examples-2.4.1.jar wordcount /wordcount/input /wordcount/out 
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu0de8q3kj30qo0tf0yu.jpg)
+![](https://i.loli.net/2019/06/30/5d185692e5a9d43661.jpg)
 
 到/**wordcount**/**out**查看MR分析结果,并使用命令下载文件
 
 > $ hadoop fs -ls /wordcount/out/
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu0h254m9j30mk0iu3z7.jpg)
+![](https://i.loli.net/2019/06/30/5d185699bc9f428703.jpg)
 
 > $ hadoop fs -get /wordcount/out part-r-00000
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu0itjlp1j30mk0iumz8.jpg)
+![](https://i.loli.net/2019/06/30/5d18569c354df29231.jpg)
 
 查看MR分析结果
 
-![](https://ws1.sinaimg.cn/large/0066vfZIgy1fiu0khtaj0j30mk0iu3zz.jpg)
-
+![](https://i.loli.net/2019/06/30/5d18569d7134b87906.jpg)

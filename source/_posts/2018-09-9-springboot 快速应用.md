@@ -18,24 +18,24 @@ tags: Spring
 
 ##### 1.创建一个springboot项目：
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4caxytwoj30o10lxwga.jpg)
+![image](https://i.loli.net/2019/06/30/5d18563e9ff2c84779.jpg)
 
 ##### 2.创建项目的文件结构以及jdk的版本 
 
-![image]http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cbjv3kaj30mz0kvq4u.jpg)
+![image](https://i.loli.net/2019/06/30/5d18563feac6882617.jpg)
 
 
 ##### 3.选择项目所需要的依赖 
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cbr07vjj30ok0gjq4t.jpg)
+![image](https://i.loli.net/2019/06/30/5d18564253ed419258.jpg)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cc0kq5oj30ok0gj0ui.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856435906992628.jpg)
 
 然后点击finish
 
 ##### 5.看一下文件的结构：
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cc7sdxdj30df0eyaam.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856450615220356.jpg)
 
 
 ##### 6.查看一下pom.xml：
@@ -254,19 +254,19 @@ CREATE TABLE t_user(
 
 点击``run-Edit Configurations``
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4ccetwagj30o409rdhy.jpg)
+![image](https://i.loli.net/2019/06/30/5d1846fe622e868658.jpg)
 
 添加配置
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4ccqfqxhj30uc0ltgnc.jpg)
+![image](https://i.loli.net/2019/06/30/5d1846ffbb00683679.jpg)
 
 运行 ,同一张表一定不要运行多次，因为mapper的映射文件中会生成多次的代码，导致报错
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4ccxe0npj308r025wef.jpg)
+![image](https://i.loli.net/2019/06/30/5d1847004589638040.jpg)
 
 最后生成的文件以及结构：
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cd3oeffj30ev0cumxt.jpg)
+![image](https://i.loli.net/2019/06/30/5d18564b76b5823657.jpg)
 
 
 
@@ -468,7 +468,7 @@ public class SpringbootMybatisDemoApplication {
 
 首先看一下完成之后的文件的结构
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cd9ide6j30d80g3dgf.jpg)
+![image](https://i.loli.net/2019/06/30/5d18564c38af680618.jpg)
 
 编写UserController.java
 
@@ -581,7 +581,7 @@ public class UserServiceImpl implements UserService {
 
 添加用户
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fv4cdi6pfkj317s0ost9b.jpg)
+![image](https://i.loli.net/2019/06/30/5d18564dc501813322.jpg)
 
 查询接口不做演示
 

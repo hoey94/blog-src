@@ -1,7 +1,6 @@
 ---
 layout: post
-title: IntelliJ IDEA安装python插件
-分享
+title: IntelliJ IDEA安装python插件分享
 date: 2018-03-03 00:00:00
 categories: 软件
 ---
@@ -25,6 +24,3 @@ categories: 软件
 下载好以后在Intellij IDEA File——>Settings——>IDE setttings——>Plugins——>Install plugin from disk…——>选择插件所在路径即可。
 
 ![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozylusbqcj31h80tpaer.jpg)
-
-
-

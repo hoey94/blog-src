@@ -27,7 +27,7 @@ tags: Minecraft
 
 
 #### 1.创建maven项目
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumf9w4cc6j30lr0p8ta6.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856f72e6ec81668.jpg)
 
 #### 2.修改pom.xml文件
 
@@ -112,11 +112,11 @@ java -Xms1024M -Xmx1024M -jar craftbukkit-1.7.2-R0.4-20140316.221310-4.jar
 运行run.sh脚本
 > $ ./run.sh
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumh9hquh7j30kf0nntef.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856fb51bf813866.jpg)
 
 启动以后会发现当前目录会生成很多文件
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumi17culcj30rc0oyjt5.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856fc6032c82786.jpg)
 
 2.修改服务器参数server.properties
 
@@ -179,22 +179,22 @@ java -jar HMCL-2.1.7.jar
 
 > $ ./run.sh
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumhfd428qj30px0sp4qp.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856fe62aef11769.jpg)
 
 进入游戏，选择Multiplayer开启多人游戏即可
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumhi365o1j31f00rvkjm.jpg)
+![image](https://i.loli.net/2019/06/30/5d1857246385939797.jpg)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumhoujxj7j30qb0fjtc8.jpg)
+![image](https://i.loli.net/2019/06/30/5d185725b548c74359.jpg)
 
 
 #### 6.编写第一个命令插件
 
 这个命令暂时叫做example，当用户在游戏内输入example时，作出相应提示
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumhq9i2x3j30mt0degtp.jpg)
+![image](https://i.loli.net/2019/06/30/5d185726a66a236707.jpg)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumhr0d9cuj30p30erwl4.jpg)
+![image](https://i.loli.net/2019/06/30/5d185727b5ae799111.jpg)
 
 ---
 
@@ -293,7 +293,7 @@ commands:
 
 项目的整体目录结构
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumi8p3g8dj30fw0n2n08.jpg)
+![image](https://i.loli.net/2019/06/30/5d18572aacde984821.jpg)
 
 
 #### 7.maven打包
@@ -302,7 +302,7 @@ commands:
 
 > $ mvn clean package
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumhsv1usaj31260o9q57.jpg)
+![image](https://i.loli.net/2019/06/30/5d18573864f8624500.jpg)
 
 可以看到
 
@@ -315,8 +315,6 @@ commands:
 
 官方开发文档：https://bukkit.gamepedia.com/Main_Page
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fumicly8sjj31hb0tzair.jpg)
+![image](https://i.loli.net/2019/06/30/5d18573aed0a023310.jpg)
 
 Developers一栏就是了
-
-

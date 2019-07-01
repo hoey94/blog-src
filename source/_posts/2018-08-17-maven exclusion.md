@@ -82,4 +82,3 @@ Project-A
 ```
 
 这个时候假如我们将项目A安装到本地仓库，project-x依赖了project-A,那么project-D仍然可以在项目X中被排出在外
-

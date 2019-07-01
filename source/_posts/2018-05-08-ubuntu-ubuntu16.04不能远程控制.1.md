@@ -30,4 +30,3 @@ tags: Teamviewer
 ![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fr46i3kz6yj30m30ruqe2.jpg)
 
 另外附上解决问题的帖子https://askubuntu.com/questions/764228/teamviewer-11-wont-run-on-ubuntu-16-04-64-bit
-

@@ -209,13 +209,3 @@ public static long getMaxSplitSize(JobContext context) {
 了解了切片后，我们到底切多大？是比HDFS block大好还是比他小好？为什么要对文件进行切分？要明白切片规划的其中一个重要的原因就是mapreduce期望，在运行每个maptask时，任务所需要的输入数据恰好能在本地，这样就能保证每次maptask于hdfs的数据交互时，直接可以从本地拿到数据。理想状态（切片的大小=blocksize,减少maptask于hdfs的跨网络数据传输）。
 
 本人水平有限，不当之处希望各位高手指正。邮箱cnnqjban521@gmail.com。
-
-
-
-
-
-
-
-
-
-

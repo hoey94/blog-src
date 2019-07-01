@@ -13,7 +13,7 @@ Hive是基于Hadoop的一个数据仓库，我们可以将结构化的数据映�
 
 我们可以从Hive的官网https://hive.apache.org/下载对应的安装包。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqxg7m6s5aj30pu0dk782.jpg)
+![image](https://i.loli.net/2019/06/30/5d18564f9e5c453261.jpg)
 
 这里我使用的版本是1.2.1。
 
@@ -64,7 +64,7 @@ export HIVE_CONF_DIR=/data/apache-hive-1.2.2-bin/conf
 
 什么是元数据？`元数据`就是可以理解为`描述数据的数据`，这边写的是本机的mysql,这些`描述数据的数据`会存在mysql的hive库中，你可以在启动hive以后查看一下mysql数据这些数据到底长什么样子。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqxhq2lccij30pw0tdwib.jpg)
+![image](https://i.loli.net/2019/06/30/5d185652e9cda20604.jpg)
 
 
 拷贝hadoop目录下配置文件到当前目录
@@ -89,7 +89,7 @@ export HIVE_CONF_DIR=/data/apache-hive-1.2.2-bin/conf
 
 我使用的是第一种方法
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIly1fqxgpfwiooj30pt0pajva.jpg)
+![image](https://i.loli.net/2019/06/30/5d185654dbe3a17046.jpg)
 
 ## Hive一些简单操作
 
@@ -112,7 +112,7 @@ export HIVE_CONF_DIR=/data/apache-hive-1.2.2-bin/conf
 6,cetty
 ```
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqxgvlowefj30pu07qwgj.jpg)
+![image](https://i.loli.net/2019/06/30/5d1856561f07318369.jpg)
 
 使用下面命令就可以将数据导入到表中
 
@@ -166,7 +166,3 @@ public final class Lower extends UDF {
 #### 4.4、 创建临时函数与开发好的java class关联
 
 > create temporary function toprovince as 'cn.itcast.bigdata.udf.ToProvince';
-
-
-
-

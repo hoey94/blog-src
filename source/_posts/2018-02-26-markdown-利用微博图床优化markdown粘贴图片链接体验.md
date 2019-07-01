@@ -1,7 +1,6 @@
 ---
 layout: post
-title: firefox下利用微博图床优化markdown粘贴图片链接体验
-分享
+title: firefox下利用微博图床优化markdown粘贴图片链接体验分享
 date: 2018-02-26 00:00:00
 categories: 其他
 ---
@@ -63,4 +62,3 @@ xclip -selection clipboard -t image/png -o > $HOME/Desktop/snapshot.png
 ## 其他
 
 如果你喜欢chrome浏览器,你可以在chrome下载新浪图床拓展程序,因为最近GWF很严,本人惨造封杀,无法科学上网,chrome拓展不太好下载,所以选择了firefox :(
-

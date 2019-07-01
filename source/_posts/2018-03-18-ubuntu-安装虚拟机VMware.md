@@ -160,8 +160,3 @@ mini3是我刚从mini1克隆的一个新版本,启动以后发现无法正常分
 ![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fph540ybxbj30qo0fv78k.jpg)
 
 像上图一样设置就可以了
-
-
-
-
-

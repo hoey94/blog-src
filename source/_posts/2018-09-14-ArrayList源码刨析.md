@@ -97,6 +97,3 @@ public E remove(int index) {
     return oldValue;
 }  
 ```
-
-
-

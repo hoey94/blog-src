@@ -97,5 +97,3 @@ QQ2012国际版:
 
 > $ sudo dpkg -l | grep gnome-sudoku  
 > $ sudo dpkg -P gnome-sudoku
-
-

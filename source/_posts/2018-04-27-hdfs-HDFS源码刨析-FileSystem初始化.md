@@ -201,5 +201,3 @@ public DFSClient(URI nameNodeUri, ClientProtocol rpcNamenode, Configuration conf
 到此，FileSystem的初始化就基本完成。后续分析上传、下载源码，然后理一下SecondNameNode的CheckPoint机制。
 
 本人水平有限，不当之处希望各位高手指正。另外插入是在word中画的，看起来不精致请见谅。
-
-

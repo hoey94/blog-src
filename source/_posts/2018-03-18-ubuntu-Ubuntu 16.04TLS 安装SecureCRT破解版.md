@@ -12,7 +12,7 @@ categories: ubuntu
 
 本机使用的是ubuntu16.04 TLS 64版,在本机上安装过程无任何问题(仅限本机)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgvn41tp7j30q30tq4qp.jpg)
+![image](https://i.loli.net/2019/06/30/5d18562f663f412661.jpg)
 
 ### 1.下载
 
@@ -36,7 +36,7 @@ categories: ubuntu
 
 认证信息:
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fpgts6s34sj30i90bfgru.jpg)
+![image](https://i.loli.net/2019/06/30/5d185630b0ea859495.jpg)
 
 到dash中搜索securecrt启动,securecrt会提示你产品没有license，需要购买不然只能使用30天,
 我们输入上图中的认证信息就可以完成注册。
@@ -60,4 +60,3 @@ categories: ubuntu
 参考1:http://www.cnblogs.com/wangkongming/p/3533240.html
 
 参考2:http://www.vandyke.com/products/securecrt/
-

@@ -576,11 +576,11 @@ zip -r command.zip command.job
 
 首先创建project
 
-![image](http://ww1.sinaimg.cn/large/006qboNIgy1fqzshkulcwj30pq0ij3zv.jpg)
+![image](https://i.loli.net/2019/06/30/5d1847cb3400120269.jpg)
 
 上传zip包
 
-![image](http://ww1.sinaimg.cn/large/006qboNIgy1fqzsie27azj30oi0bvwfi.jpg)
+![image](https://i.loli.net/2019/06/30/5d18576f0293651460.jpg)
 
 4、启动执行该job
 
@@ -677,5 +677,3 @@ command=/home/hadoop/apps/hive/bin/hive -f 'test.sql'
 
 
 感谢博主分享，很不错的资料很全面，转载一波https://blog.csdn.net/hblfyla/article/details/74384915
-
-

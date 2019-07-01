@@ -61,4 +61,3 @@ ln -s 源文件 目标文件
 ln -s /*/*/jdk1.8.0_91 /usr/java/jdk1.8
 sudo -u hdfs hdfs dfs -mkdir -p /flume/mysql
 ```
-
