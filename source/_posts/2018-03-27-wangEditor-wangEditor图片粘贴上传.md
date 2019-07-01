@@ -1,7 +1,7 @@
 ---
 layout: post
 title: wangEditor粘贴图片上传
-tags: 问题总结
+tags: Editor
 date: 2018-03-27 00:00:00
 categories: 前端
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: HDFS and YARN
+categories: 大数据
 tags: Hadoop
 date: 2017-08-21 00:00:00
-categories: 大数据
 ---
 
 本文主要说明HDFS和MapReduce两门技术的入门使用.因为MapReduce太长,后面就简称MR,我们到[官网](http://hadoop.apache.org/releases.html)下载hadoop-2.4.1.tar.gz,并解压,进入到hadoop-2.4.1/etc/hadoop,分别配置以下几个文件

@@ -3,7 +3,7 @@ layout: post
 title: git -- 忽略某个文件
 date: 2018-08-08 00:00:00
 categories: 后端
-tags: git
+tags: Git
 ---
 
 ## 修改 .gitignore 文件

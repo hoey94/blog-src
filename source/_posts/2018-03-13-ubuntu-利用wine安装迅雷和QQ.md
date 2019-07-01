@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 利用wine安装迅雷和QQ
-tags: 问题总结
 date: 2018-03-13 00:00:00
-categories: ubuntu
+categories: Linux
+tags: Ubuntu
 ---
 
 ## 本机环境:

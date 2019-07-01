@@ -3,7 +3,7 @@ layout: post
 title: selenium资料馆库
 date: 2018-02-12 00:00:00
 categories: 自动化测试
-tags: selenium
+tags: Selenium
 ---
 
 今天把手头有的一些关于selenium测试的资源整理了一下，分享出来。

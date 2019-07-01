@@ -2,7 +2,7 @@
 layout: post
 title: markdown使用
 date: 2017-08-10 00:00:00
-categories: 博客
+categories: 其他
 ---
 
 传送门

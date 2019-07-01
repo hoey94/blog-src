@@ -3,7 +3,7 @@ layout: post
 title: forge开发环境Setup
 date: 2018-05-12 00:00:00
 categories: Autodesk
-tags: forge
+tags: Forge
 ---
 
 windows下搭建forge官网提供的案例[链接](https://github.com/Autodesk-Forge/forge-rcdb.nodejs),编译器使用vscode。

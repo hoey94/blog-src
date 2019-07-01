@@ -2,7 +2,8 @@
 layout: post
 title: try-catch影响性能？
 date: 2018-05-12 00:00:00
-categories: 后端
+categories: 其他
+tags: 问题总结
 ---
 
 今天在审查代码时，发现自己的查询接口并没有try-catch。开始这样写是因为觉得写try-catch没必要，查询不可能会发生异常，但后来想了想又不太对，假如以后拓展接口，在查询后又用了查询后信息呢？就会抛空指针异常了！为了保证接口的健壮性，最好还是要加上try-catch。那么到底try-catch影不影响程序执行的速度？

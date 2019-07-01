@@ -2,7 +2,8 @@
 layout: post
 title: IntelliJ IDEA安装python插件分享
 date: 2018-03-03 00:00:00
-categories: 软件
+categories: 编程语言
+tags: Python3
 ---
 
 开始在File->Settings->Plugins->中尝试集成python,下载了半天提示了个错误框,然后只好通过手动方式安装了

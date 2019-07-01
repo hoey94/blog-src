@@ -3,6 +3,7 @@ title: ClouderaManager操作指南
 date: 2019-03-19 13:58:42
 author: 张帅
 categories: 大数据
+tags: CDH
 photos: http://ww1.sinaimg.cn/large/0066vfZIgy1g182hg7z60j30cv068gln.jpg
 ---
 

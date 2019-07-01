@@ -3,7 +3,7 @@ layout: post
 title: virtualenv搭建
 date: 2018-08-26 00:00:00
 categories: 编程语言
-tags: Python
+tags: Python3
 ---
 
 python 虚拟环境

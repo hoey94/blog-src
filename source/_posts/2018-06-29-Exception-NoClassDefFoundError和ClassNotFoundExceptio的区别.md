@@ -1,9 +1,9 @@
 ﻿---
 layout: post
 title: NoClassDefFoundError和ClassNotFoundExceptio的区别
-
 date: 2018-06-29 00:00:00
-categories: 后端
+categories: 其他
+tags: 问题总结
 ---
 
 ## 问题描述

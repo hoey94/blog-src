@@ -1,8 +1,9 @@
 ---
 layout: post
-title: ubuntu sublime不能输入中文
+title: Ubuntu sublime不能输入中文
 date: 2017-09-19 00:00:00
-categories: ubuntu
+categories: Linux
+tags: Ubuntu
 ---
 
 ubuntu 16.0.4使用sublime不能输入中文

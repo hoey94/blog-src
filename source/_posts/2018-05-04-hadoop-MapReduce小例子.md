@@ -1,11 +1,11 @@
 ---
 layout: post
 title: MapReduce小例子
-
 date: 2018-05-04 00:00:00
 categories: 大数据
 tags: MapReduce
 ---
+
 案例一 : 统计单词出现个数
 
 a  b  a  b a  

@@ -3,7 +3,7 @@ layout: post
 title: Struts2和Spring集成后关于struts.xml中的class如何写的问题
 date: 2017-08-22 00:00:00
 categories: 后端
-tags: struts
+tags: Struts2
 ---
 
 Sturts整合Spring后，想让Spring管理Struts的Action，在struts.xml中配置Action的class属性时使用bean的id来指定Action的类路径

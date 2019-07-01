@@ -1,10 +1,9 @@
 ﻿---
 layout: post
-title: ubuntu16.04不能远程控制
-
+title: ubuntu16.04 Teamviewer不能远程控制
 date: 2018-05-08 00:00:00
-categories: ubuntu
-tags: Teamviewer
+categories: Linux
+tags: Ubuntu
 ---
 
 ## 问题描述

@@ -2,7 +2,8 @@
 layout: post
 title: ubuntu16.04安装QQ国际版
 date: 2018-03-03 00:00:00
-categories: ubuntu
+categories: Linux
+tags: Ubuntu
 ---
 
 经过不断折腾,终于找到了一个可安装的QQ,下面的方法不出意外应该是适用与所有的ubuntu16版本,本人已经使用这个方法正常安装了QQ2012国际版,如图:

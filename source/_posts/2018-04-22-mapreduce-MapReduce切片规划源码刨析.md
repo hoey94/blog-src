@@ -1,14 +1,10 @@
 ﻿---
 layout: post
 title: MapReduce切片规划源码剖析
-
 date: 2018-04-22 00:00:00
 categories: 大数据
 tags: MapReduce
 ---
-
-
-----------
 
 
 切片规划最终会形成一个文件job.split。里面存放这切片信息，首先要明确一点是maptask的数量于切片的数量有直接对应关系。mrappmaster在启动maptask时，会去job.split文件中找切片信息，有几个切片就启动几个maptask，每个切片分配一个maptask并行实例。我们通过追源码，找到了这个文件。

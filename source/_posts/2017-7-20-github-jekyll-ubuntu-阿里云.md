@@ -2,7 +2,7 @@
 layout: post
 title: github-jekyll搭建个人博客网站
 date: 2017-07-20 00:00:00
-categories: 博客
+categories: 其他
 ---
 
 使用**github**和**jekyll**搭建的[博客](http://www.zonegood.com),运行环境是**ubuntu 1.6.04**使用的域名是[阿里云](https://cn.aliyun.com/),听说.tk的也不错，但是我注册的域名在.tk很贵

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Ubuntu 16.04TLS 安装最新版VMware14.1.1
-tags: 问题记录
+tags: Ubuntu
 date: 2018-03-18 00:00:00
-categories: ubuntu
+categories: Linux
 ---
 
 由于最近搭建集群需要虚拟机,来安装VMware

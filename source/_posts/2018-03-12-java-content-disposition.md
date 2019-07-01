@@ -1,9 +1,9 @@
 ---
 layout: post
 title: content-disposition使用
-tags: 问题总结
 date: 2018-03-12 00:00:00
 categories: 其他
+tags: 问题总结
 ---
 
 content-disposition 是RFC中定义的文件下载标识字段,详情查看rfc2616章节19.5 [Additional Features](http://www.rfc-editor.org/rfc/rfc2616.pdf),其中有两种形式供给我们选择，一个是inline，一个是attachment

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Ubuntu 16.04TLS 安装SecureCRT破解版
-tags: 问题记录
 date: 2018-03-18 00:00:00
-categories: ubuntu
+categories: Linux
+tags: Ubuntu
 ---
 
 由于最近使用vm搭建集群使用ubuntu的终端连接节点太繁琐,来安装SecureCRT

@@ -1,10 +1,10 @@
 ---
 
 layout: post
-title: hibernateone to many 和many to one 有什么区别？
+title: Hibernate one to many 和many to one 有什么区别？
 date: 2017-08-13 00:00:00
 categories: 后端
-tags: hibernate
+tags: Hibernate
 ---
 
 室友问了我个奇怪的问题

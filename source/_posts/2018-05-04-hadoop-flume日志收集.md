@@ -1,7 +1,6 @@
 ﻿---
 layout: post
 title: flume日志收集系统部署
-
 date: 2018-05-04 00:00:00
 categories: 大数据
 tags: Flume
