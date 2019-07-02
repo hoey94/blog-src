@@ -8,7 +8,7 @@ tags: MapReduce
 
 
 切片规划最终会形成一个文件job.split。里面存放这切片信息，首先要明确一点是maptask的数量于切片的数量有直接对应关系。mrappmaster在启动maptask时，会去job.split文件中找切片信息，有几个切片就启动几个maptask，每个切片分配一个maptask并行实例。我们通过追源码，找到了这个文件。
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlmz44307j30pj0p57cq.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf3d1623e18146.jpg)
 
 MapReduce框架会把它存在我们本机的某个路径。它是MapReduce对于待处理数据的一个描述信息文件。
 
@@ -39,23 +39,23 @@ MapReduce框架会把它存在我们本机的某个路径。它是MapReduce对�
 
 一步一步断点调试,通过本地运行MapReduce程序,进入debug。先在`job.waitForCompletion(true);`打断点。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqln65zbisj31fq0hwdii.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf4a3e7fb29757.jpg)
 
 发现会进入`submitter.submitJobInternal()`,跳进去
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqln8xtt4oj315z0gy0ud.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf55c689225911.jpg)
 
 可以看到拿到了`jobStagingArea`,后续拿到了`jobId`,最后拼成了`submitJobDir`。这个目录就是上面提到的job.split存放的目录。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlnbpqlsbj312t0fiabp.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf608a04477982.jpg)
 
 拿到submitJobDir以后，MapReduce开始调用`this.writeSplits(job, submitJobDir)`对文件进行逻辑切分，形成job.split文件(后续详细解析里面的内部详情)
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlnc2wu40j31ed0j30vw.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf6f0d49492866.jpg)
 
 后续获取配置信息。形成job.xml文件，这个文件里面定义了hadoop中各种各样的配置信息
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlngk2q89j31fl0imtba.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf7bc14b539508.jpg)
 
 最后将job.split,job.xml,写到对应的submitJobDir目录下。
 
@@ -73,7 +73,7 @@ MapReduce框架会把它存在我们本机的某个路径。它是MapReduce对�
 
 InputFormat的类结构图
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqlny78sfdj30qx0gwtao.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf837122867524.jpg)
 
 来看看getSplits方法的具体逻辑，我直接把源码粘过来了,我在关键的地方加了注释
 

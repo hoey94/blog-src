@@ -7,8 +7,8 @@ import uuid
 import os
 
 
-file_download_path = '/home/zyh/projects/spider/img'
-post_path = '/home/zyh/projects/spider/post'
+file_download_path = 'D:\\uploadImg\\img'
+post_path = 'E:\\Workspaces\\github\\blog\\source\\_posts'
 
 # 上传file到sm网站
 def to_sm(file):
@@ -75,7 +75,7 @@ def set_empty(file):
 
 # 从文件中读取数据
 def read(path):
-    with open(path,'r+') as file:
+    with open(path,'r+', encoding='UTF-8') as file:
         # 读数据到Contents
         contents = file.read().rstrip()
         # 删除尾部空格

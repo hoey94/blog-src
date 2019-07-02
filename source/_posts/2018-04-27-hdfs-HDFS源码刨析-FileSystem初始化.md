@@ -28,7 +28,7 @@ tags: HDFS
 
 ## HDFS上传文件原理图
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqqjcmd366j30s40gcta1.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf9126b9331118.jpg)
 
 0. Client会将文件切分成指定大小的块(block),块的大小默认128M
 1. Client会从第一个块开始，向NameNode发起上传文件请求，通过RPC与NameNode建立通讯。
@@ -40,13 +40,13 @@ tags: HDFS
 
 可以将`元数据`理解为`描述数据的数据`,红色部分就是元数据。
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqqk0ik7caj30pz0g7my8.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf9633d2287355.jpg)
 
 元数据是从fsimage文件中读取出来的，在我们对hdfs进行操作时，元数据都会发生改变，那么fsimage的数据是谁写进去的？SecondNameNode中用了一种机制可以帮助实现这个操作，叫checkPoint。这的水有点神，后续专门进行详述。
 
 ## HDFS下载文件原理图
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fqqkozjmj4j30u30iwgmx.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aaf9bbb73695968.jpg)
 
 1. Client请求NameNode下载BLK_1块数据,
 2. NameNode查找MetaData元数据

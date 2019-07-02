@@ -49,7 +49,7 @@ tags: Ubuntu
 +-- remove.sh
 ```
 
-![附图](http://ww1.sinaimg.cn/large/0066vfZIgy1fpai4outlqj318t0jddhj.jpg)
+![附图](https://i.loli.net/2019/07/02/5d1aae969fc0932921.jpg)
 
 - qq-d文件夹中为搭建deepin-wine环境所需的第一级依赖软件，包括deepin-wine，deepin-wine-helper等。
 - deepin-wine-d中为软件包deepin-wine所需的依赖软件，包括deepin-libwine等。

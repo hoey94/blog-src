@@ -47,11 +47,11 @@ xclip -selection clipboard -t image/png -o > $HOME/Desktop/snapshot.png
 
 我们可以在系统设置的键盘选项中自定义快捷键来运行我们想要运行的脚本文件
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozvguy6vmj30nn0ge3z2.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aae8d10c8091578.jpg)
 
 点击`+`号添加自定义快捷键,`名称`随意填写即可,`命令填写我们刚刚编写的snapshot.sh,记得要写全路径`,本机填写的是/home/zyh/Documents/screenshot/snapshot.sh
 
-![image](http://ww1.sinaimg.cn/large/0066vfZIgy1fozvjjbxy3j30nl0dujsm.jpg)
+![image](https://i.loli.net/2019/07/02/5d1aae911a06d47385.jpg)
 
 我这里设置的快捷键是`Ctrl+Alt+W`,自己根据喜好调整即可。
 
