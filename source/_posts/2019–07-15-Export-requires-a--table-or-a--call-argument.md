@@ -11,7 +11,7 @@ tags: 问题总结
 
 ### 解决办法
 
-坐下面修改，在值的左右加上<font color="red">双引号</font>即可。
+做下面修改，在值的左右加上<font color="red">双引号</font>即可。
 
 ```xml
 --connect "jdbc:sqlserver://47.92.105.228:1433;database=ecologydata" \
