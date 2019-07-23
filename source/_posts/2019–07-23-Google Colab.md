@@ -42,6 +42,6 @@ print(tf.__version__)
 点击画的红色框框运行代码
 [![snapshot.png](https://i.loli.net/2019/07/23/5d372439cf26465483.png)](https://i.loli.net/2019/07/23/5d372439cf26465483.png)
 
-有兴趣的可以看一下下面的链接
+参考文档汇总:
 
-[^脚注]: https://research.google.com/colaboratory/faq.html#browsers
+[官方问答](https://research.google.com/colaboratory/faq.html#browsers):https://research.google.com/colaboratory/faq.html#browsers
