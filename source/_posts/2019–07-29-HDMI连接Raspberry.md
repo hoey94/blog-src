@@ -6,7 +6,7 @@ categories: 物联网
 
 通常情况下，树莓派会自动检测显示器的类型并修改配置。但有时，自动检测的结果可能不正确。如果你的树莓派连接到电视上但没有任何显示的话，你要考虑手动修改树莓派的显示配置了
 
-![https://i.loli.net/2019/07/30/5d3f19362cae312171.jpeg](https://i.loli.net/2019/07/30/5d3f19362cae312171.jpeg)
+![https://i.loli.net/2019/07/30/5d3f1b5a7dc4c45534.jpeg](https://i.loli.net/2019/07/30/5d3f1b5a7dc4c45534.jpeg)
 
 下面我们手动修改/boot/config.txt文件。记得修改前备份一个，以下是参数文件：
 
