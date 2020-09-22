@@ -118,6 +118,7 @@ yum makecache fast
 yum -y install docker-ce
 ```
 
+Docker 安装不了可能是源的问题,我的机器是ubuntu，这里参考了链接完成了安装https://www.runoob.com/docker/ubuntu-docker-install.html
 
 
 #### 3.4 启动Docker并测试
