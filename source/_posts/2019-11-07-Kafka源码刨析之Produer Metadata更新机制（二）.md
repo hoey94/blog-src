@@ -1,6 +1,6 @@
 ---
 title: Kafka源码刨析之Produer Metadata更新机制（二）
-date: 2019年11月07 19:04:00
+date: 2019-11-07 19:04:00
 categories: 大数据
 tags: kafka
 ---
