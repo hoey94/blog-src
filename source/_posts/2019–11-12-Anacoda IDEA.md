@@ -1,6 +1,6 @@
 ---
 title: Anaconda IDEA
-date: 2019年11月11 22:56:00
+date: 2019-11-11 22:56:00
 categories: 机器学习
 tags: Anaconda
 ---
