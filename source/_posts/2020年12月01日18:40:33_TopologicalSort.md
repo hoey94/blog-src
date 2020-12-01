@@ -122,4 +122,4 @@ HashSet<Integer> hashTable = new HashSet<>(); // 保存已经访问过的vertex
 
 然后如果放的时候发现哈希表里面已经存在，那就意味着出现环了。
 
-方便学习提供[源码](https://github.com/Demo233/algorithm/blob/master/src/main/java/com/paic/graph/TopologicalSort.java)
+方便折腾的时候参考，[源码](https://github.com/Demo233/algorithm/blob/master/src/main/java/com/paic/graph/TopologicalSort.java)
