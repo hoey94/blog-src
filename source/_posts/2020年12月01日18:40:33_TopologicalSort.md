@@ -1,5 +1,5 @@
 ---
-title: 拓扑排序
+title: Topological Sort
 date: 2020-12-01 18:40:25
 categories: 算法与数据结构
 tags: 图
@@ -114,8 +114,12 @@ public int sort(ListDG listDG){
 
 ![title](https://raw.githubusercontent.com/Demo233/images/main/gitnote/2020/12/01/1606823823344-1606823823348.png)
 
-这个时候插入C指向A的边以后，怎么监测带没带环？使用BFS或者DFS遍历顶点，使用哈希表记录已访问过的顶点值，然后如果放的时候发现已经存在，那就意味着出现环了。
+这个时候插入C指向A的边以后，怎么监测带没带环？使用BFS或者DFS遍历顶点，用哈希表记录已访问过的顶点值。
 
 ```java
-HashSet<Integer> hashTable = new HashSet<>(); // 保存已经访问过的actorId
+HashSet<Integer> hashTable = new HashSet<>(); // 保存已经访问过的vertex
 ```
+
+然后如果放的时候发现哈希表里面已经存在，那就意味着出现环了。
+
+方便学习提供[源码](https://github.com/Demo233/algorithm/blob/master/src/main/java/com/paic/graph/TopologicalSort.java)
