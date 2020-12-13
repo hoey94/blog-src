@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu 16.04TLS 安装SecureCRT破解版
+title: Ubuntu16.04TLS 安装SecureCRT破解版
 date: 2018-03-18 00:00:00
 categories: Linux
 tags: Ubuntu

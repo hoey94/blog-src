@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu 16.04TLS 安装最新版VMware14.1.1
+title: Ubuntu16.04TLS安装最新版VMware14.1.1
 tags: Ubuntu
 date: 2018-03-18 00:00:00
 categories: Linux

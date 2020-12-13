@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ubuntu sublime不能输入中文
+title: Ubuntu16.04TLS sublime不能输入中文
 date: 2017-09-19 00:00:00
 categories: Linux
 tags: Ubuntu

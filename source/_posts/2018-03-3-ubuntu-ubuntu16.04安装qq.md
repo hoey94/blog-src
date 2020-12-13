@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ubuntu16.04安装QQ国际版
+title: Ubuntu16.04TLS安装QQ国际版
 date: 2018-03-03 00:00:00
 categories: Linux
 tags: Ubuntu
