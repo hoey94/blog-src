@@ -1,5 +1,5 @@
 ---
-title: Apache Druid依赖注入Guice
+title: Apache Druid Guice
 date: 2020-12-07 21:00:16
 categories: 大数据
 tags: Apache Druid
