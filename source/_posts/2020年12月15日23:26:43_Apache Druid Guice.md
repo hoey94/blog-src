@@ -235,7 +235,7 @@ class OracleDatabase implements Database {
 
 ### 三、 Druid中拓展组件
 
-Druid在Guice基础上拓展了三个插件，这三个插件贯穿整个Druid源码，不懂会影响看代码。它们分别是```guice-lifecycle```、```guice-jsonconfig```和```guice-jersey-jetty```
+Druid在Guice基础上拓展了三个插件，这三个插件贯穿整个Druid源码，不懂会影响看代码。它们分别是``guice-lifecycle``、``guice-jsonconfig``和``guice-jersey-jetty``
 
 * guice-lifecycle：提供生命周期管理
 * guice-jsonconfig：提供配置文件Bean注入
